@@ -1,0 +1,58 @@
+.public-holidays__header {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.public-holidays__empty_column {
+  grid-row: 3;
+  padding: 1rem 0 0 1rem;
+}
+
+.public-holidays__header--delimeter {
+  position: relative;
+}
+
+.public-holidays__header--delimeter::before {
+  content: '';
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #edebe9;
+  z-index: 1;
+}
+
+.holidays__empty_column {
+  grid-column: 1;
+  grid-row: 3;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.public-holidays__dates {
+  grid-column: 2;
+  grid-row: 3;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.public-holidays__description {
+  grid-column: 3;
+  grid-row: 3;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.public-holidays__dates--header,
+.public-holidays__description--header {
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.public-holidays__dates--content,
+.public-holidays__description--content {
+  padding: 16px 0 0 0;
+}

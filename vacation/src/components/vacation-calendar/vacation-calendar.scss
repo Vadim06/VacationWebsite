@@ -1,0 +1,8 @@
+.vacation-calendar {
+    &--cell {
+        border: 1px solid sandybrown;
+        &-today {
+            background-color: bisque;
+        }
+    }
+}

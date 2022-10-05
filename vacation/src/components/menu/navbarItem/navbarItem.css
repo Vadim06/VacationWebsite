@@ -1,0 +1,21 @@
+.navContainer {
+  height: 56rem;
+  width: 13rem;
+  border: solid 1px #0078d4;
+  border-top: none;
+  user-select: none;
+}
+
+.itemContainer p {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.itemContainer {
+  cursor: pointer;
+  display: block;
+}
+
+.itemContainer:hover {
+  background-color: #edebe9;
+}

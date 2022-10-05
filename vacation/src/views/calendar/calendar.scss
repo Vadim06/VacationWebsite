@@ -1,0 +1,10 @@
+.month-setter {
+  width: 170px;
+  &--option {
+    border: 1px solid blue;
+    cursor: pointer;
+    &:hover {
+        background-color: aqua;
+    }
+  }
+}
